@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "id": "1",
+      "value": "vata"
+    },
+    {
+      "id":"2",
+      "value":"xren"
+    },
+    {
+      "id":"3",
+      "value": "other"
+    }
+  ]
+}

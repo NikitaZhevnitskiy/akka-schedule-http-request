@@ -1,0 +1,11 @@
+version: '3'
+services:
+  # https://github.com/clue/docker-json-server
+  lookup-service-mock:
+    image: zhenik/json-server
+    environment:
+    - ID_MAP=key
+    ports:
+    - "3000:80"
+    volumes:
+    - ./db.json:/data/db.json
