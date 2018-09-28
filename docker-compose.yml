@@ -4,7 +4,7 @@ services:
   lookup-service-mock:
     image: zhenik/json-server
     environment:
-    - ID_MAP=key
+    - ID_MAP=id
     ports:
     - "3000:80"
     volumes:
